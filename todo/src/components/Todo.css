@@ -8,7 +8,8 @@ body {
 }
 
 body {
-  background-color: #5D78E8;
+  /* background-color: blue; */
+  background-image: url("https://ceriusexecutives.com/wp-content/uploads/2018/04/bigstock-Checklist-concept-checklist-210456940.jpg");
 }
 
 h1,
@@ -41,7 +42,7 @@ span {
   margin: 0;
   margin-top: 2rem;
   font-size: 1.5rem;
-  color: white;
+  color: black;
 }
 
 .todoTask {
@@ -71,13 +72,15 @@ form {
 }
 
 .item {
-  background-color: #d1f4f6;
+  background-color: red;
   width: 45%;
   margin: 8px 10px;
+  border-radius: 10px;
+  outline: none;
 }
 
 button {
-  background-color: yellow;
+  background-color: red;
   font-size: 16px;
   padding: 7px 14px;
   border-radius: 10px;
@@ -85,7 +88,7 @@ button {
 }
 
 button:hover {
-  background-color: #C573FF;
+  background-color: green;
   border-color: black;
   cursor: pointer;
 }
@@ -99,6 +102,6 @@ button:hover {
 }
 
 .item.completed {
-  background-color: #d17d7c;
+  background-color: green;
   text-decoration: line-through;
 }
